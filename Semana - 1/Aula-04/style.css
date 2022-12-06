@@ -1,0 +1,13 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h2{
+    border: solid  white 5px;
+}
+
+button{
+    color: blueviolet;
+}
