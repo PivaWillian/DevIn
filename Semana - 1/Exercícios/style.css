@@ -1,0 +1,80 @@
+html,
+body,
+div,
+main,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(112, 222, 250);
+    width: 100vh;
+}
+
+body>header>nav{
+    background-color: rgb(134, 131, 131);
+    border: solid 4px purple;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+a:link ,a:visited{
+    color: chartreuse;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+h1{
+    margin-top: 78px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    background-image: url("/Semana - 1/Ícones/Text.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-size: 14px;
+}
+
+div.box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex: 33.33%;
+    flex-wrap: wrap;
+}
+
+img#logo{
+    margin-top: 20px;
+}
+
+.box>img{
+    margin-top: 78px;
+}
+
+nav>a:hover{
+    background-color: yellowgreen;
+    color: orangered;
+    transition: 300ms;
+}
+
+#baixo{
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    position: fixed;
+    display: block;
+}
