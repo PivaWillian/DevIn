@@ -1,8 +1,8 @@
-let matriz = [56, 65, 64, -3, 23, 42, -15, 65, 14, 32, 78, 70, 47];
+let matriz = [4, 5, 6, 7, 9, 10, 5 , 3, 5, 1];
 
 
-function SearchMinMax(arr){
-    if(arr === null || arr === undefined){
+let SearchMinMax = (arr) => {
+    if(arr === null || arr.length === 0){
         return "Não é possível encontrar.";
     }else 
         return `O menor é ${arr[0]};\nO maior é ${arr[arr.length - 1]}`;
@@ -22,18 +22,3 @@ function numberCompare(a, b) {
 matriz.sort(numberCompare);
 
 console.log(SearchMinMax(matriz));
-
-
-
-function Ola(name){
-    console.log(`Olá ${name}`);
-}
-
-Ola("Willian");
-
-globalThis;
-
-var arr = [6, 5, 4, 3, 2, 1, 0];
-arr.forEach(function(a, b, c){
-    console.log(c);
-})
