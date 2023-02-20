@@ -1,0 +1,9 @@
+body{
+    background-color: blueviolet;
+    color: yellow;
+}
+
+nav{
+    display: block;
+    align-items: stretch;
+}
