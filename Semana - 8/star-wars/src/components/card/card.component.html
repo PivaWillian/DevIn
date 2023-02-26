@@ -1,0 +1,25 @@
+<ul class="card">
+  <li class="card-img-top">
+    <img [src]="imgPath" alt="avatar-star-wars">
+  </li>
+  <li class="card-body">
+    <h1 class="card-title">
+      {{name}}
+    </h1>
+    <p class="card-text">
+      {{hability}}
+    </p>
+    <p class="card-text">
+      {{planet}}
+    </p>
+    <p class="card-text">
+      {{weapons}}
+    </p>
+  </li>
+  <li class="card-footer">
+    <button (click)="openWindow('https://starwars.fandom.com/pt/wiki/P%C3%A1gina_principal')"
+      class="btn btn-primary">
+      Saiba mais
+    </button>
+  </li>
+</ul>
